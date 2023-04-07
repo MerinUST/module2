@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flexbox;
+    height: 100%;
+    width: 100%;
+    background-color:wheat;
+}
+header{
+    height: 60px;
+    background-color:black;
+    padding: 15px;
+}
+header>h1{
+    text-align: center;
+    color: wheat;
+}
+nav{
+text-align: center;
+padding: 20px;
+height: 40px;
+background-color:grey;
+}
+nav a{
+text-decoration: none;
+font-size: 20px;
+margin: 15px;
+}
+nav a:hover{
+    background-color: wheat;
+}
+main{
+    height: 70%;
+    background-color: aliceblue;
+    text-align: center;
+    height: max-content;
+}
+div{
+    display: block;
+    margin: 30px;
+    float: left;
+    width: 25%;
+    border-width: 2px;
+    border-color: black;
+    border-style: dotted;
+    height: fit-content;
+}
+footer{
+    text-align: center;
+    height: 75
+    px;
+    background-color: blue;
+    color: aliceblue;
+}
+main:after{
+    content: "";
+    display: table;
+    clear:both;
+}
